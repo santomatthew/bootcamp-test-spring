@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        
+    <bean id="answerService" class="com.lawencon.myapp.service.impl.AnswerServiceImpl" autowire="constructor">
+
+	</bean>  
+    
+    <bean id="candidateService" class="com.lawencon.myapp.service.impl.CandidateServiceImpl" autowire="constructor">
+
+	</bean>
+	
+	<bean id="candidateToQuestionService" class="com.lawencon.myapp.service.impl.CandidateToQuestionServiceImpl" autowire="constructor">
+
+	</bean>
+	
+	<bean id="fileService" class="com.lawencon.myapp.service.impl.FileServiceImpl" autowire="constructor">
+
+	</bean>
+	
+	<bean id="fileTypeService" class="com.lawencon.myapp.service.impl.FileTypeServiceImpl" autowire="constructor">
+
+	</bean>
+	
+	<bean id="questionService" class="com.lawencon.myapp.service.impl.QuestionServiceImpl" autowire="constructor">
+
+	</bean>
+	
+	<bean id="questionTypeService" class="com.lawencon.myapp.service.impl.QuestionTypeServiceImpl" autowire="constructor">
+
+	</bean>
+	
+	<bean id="questionPackageService" class="com.lawencon.myapp.service.impl.QuestionPackageServiceImpl" autowire="constructor">
+
+	</bean>
+	
+	<bean id="questionTopicService" class="com.lawencon.myapp.service.impl.QuestionTopicServiceImpl" autowire="constructor">
+
+	</bean>
+	
+	<bean id="reviewService" class="com.lawencon.myapp.service.impl.ReviewServiceImpl" autowire="constructor">
+
+	</bean>
+        
+    <bean id="userService" class="com.lawencon.myapp.service.impl.UserServiceImpl" autowire="constructor">
+
+	</bean>
+        
+        
+</beans>

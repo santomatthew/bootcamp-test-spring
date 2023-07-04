@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        
+	<bean id="userDao" class="com.lawencon.myapp.dao.impl.UserDaoImpl" autowire="constructor">
+
+	</bean>
+
+	<bean id="profileDao" class="com.lawencon.myapp.dao.impl.ProfileDaoImpl" autowire="constructor" >
+
+	</bean>
+	
+	<bean id="fileDao" class=" com.lawencon.myapp.dao.impl.FileDaoImpl"  autowire="constructor" >
+
+	</bean>   
+	
+	<bean id="candidateAssignDao" class="com.lawencon.myapp.dao.impl.CandidateAssignDaoImpl" autowire="constructor" >
+
+	</bean>
+	
+	<bean id="candidateInformationDao" class="com.lawencon.myapp.dao.impl.CandidateInformationDaoImpl" autowire="constructor" >
+
+	</bean>
+	
+	<bean id="candidateToQuestionDao" class="com.lawencon.myapp.dao.impl.CandidateToQuestionDaoImpl" autowire="constructor" >
+
+	</bean>
+	
+	<bean id="getAllFileTypeDao" class="com.lawencon.myapp.dao.impl.GetAllFileTypeDaoImpl" autowire="constructor" >
+
+	</bean>
+	
+	<bean id="progressStatusDao" class="com.lawencon.myapp.dao.impl.ProgressStatusDaoImpl" autowire="constructor" >
+
+	</bean>
+	
+	<bean id="questionAnswerDao" class="com.lawencon.myapp.dao.impl.QuestionAnswerDaoImpl" autowire="constructor" >
+
+	</bean>
+	
+	<bean id="questionDao" class="com.lawencon.myapp.dao.impl.QuestionDaoImpl" autowire="constructor" >
+
+	</bean>
+	
+	<bean id="questionOptionDao" class="com.lawencon.myapp.dao.impl.QuestionOptionDaoImpl" autowire="constructor" >
+
+	</bean>
+	
+	<bean id="questionTypeDao" class="com.lawencon.myapp.dao.impl.QuestionTypeDaoImpl" autowire="constructor" >
+
+	</bean>
+	
+	<bean id="questionPackageDao" class="com.lawencon.myapp.dao.impl.QuestionPackageDaoImpl" autowire="constructor" >
+
+	</bean>
+	
+	<bean id="questionTopicDao" class="com.lawencon.myapp.dao.impl.QuestionTopicDaoImpl" autowire="constructor" >
+
+	</bean>
+	
+	<bean id="reviewDao" class="com.lawencon.myapp.dao.impl.ReviewDaoImpl" autowire="constructor" >
+
+	</bean>
+	
+	<bean id="reviewDetailDao" class="com.lawencon.myapp.dao.impl.ReviewDetailDaoImpl" autowire="constructor" >
+
+	</bean>
+        
+    <bean id="reviewStatusDao" class="com.lawencon.myapp.dao.impl.ReviewStatusDaoImpl" autowire="constructor" >
+
+	</bean>
+	
+	<bean id="roleDao" class="com.lawencon.myapp.dao.impl.RoleDaoImpl" autowire="constructor" >
+
+	</bean>
+	
+	
+	
+	
+        
+ </beans>
